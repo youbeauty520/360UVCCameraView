@@ -5,20 +5,19 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.zhouyuanyuan</groupId>
-    <artifactId>maven_A</artifactId>
+    <artifactId>maven_test</artifactId>
     <version>1.0-SNAPSHOT</version>
 
-    <dependencies>
-        <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>4.13.2</version>
-            <scope>test</scope><!--使用范围-->
-        </dependency>
-    </dependencies>
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
+    <dependencies>
+        <dependency>
+            <groupId>org.zhouyuanyuan</groupId><!--自己取的名字-->
+            <artifactId>maven_1</artifactId><!--引入自己创建的项目-->
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
 </project>
