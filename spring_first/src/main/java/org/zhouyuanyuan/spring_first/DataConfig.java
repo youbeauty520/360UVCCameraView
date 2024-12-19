@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
 @Component
 //控制反转
 public class DataConfig {
-    @Value("localhost:8080")
+    @Value("localhost:8080")//设置值
     private String url;
     @Value("root")
     private String username;

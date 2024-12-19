@@ -1,0 +1,28 @@
+<persons>
+    <person>
+        <name>刘某某</name>
+        <age>55</age>
+        <!--  1: 男, 2: 女  -->
+        <gender>1</gender>
+        <!--  1: 教师, 2: 主任 , 3: 院长  -->
+        <job>1</job>
+    </person>
+    <person>
+        <name>范某某</name>
+        <age>65</age>
+        <gender>1</gender>
+        <job>1</job>
+    </person>
+    <person>
+        <name>张某某</name>
+        <age>45</age>
+        <gender>1</gender>
+        <job>2</job>
+    </person>
+    <person>
+        <name>美女</name>
+        <age>38</age>
+        <gender>2</gender>
+        <job>3</job>
+    </person>
+</persons>

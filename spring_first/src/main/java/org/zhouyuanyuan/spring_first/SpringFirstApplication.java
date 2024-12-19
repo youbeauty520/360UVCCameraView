@@ -11,5 +11,4 @@ public class SpringFirstApplication {
         HelloController helloController = new HelloController();
         System.out.println(helloController.hello());
     }
-
 }
